@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkBlack"
+    android:orientation="vertical"
+    tools:context=".ChooseActivity">
+
+    <Button
+        android:id="@+id/minbutton"
+        android:layout_width="303dp"
+        android:layout_height="162dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/bg_choosebtn1"
+        android:onClick="mincall"
+        android:text="10분 이내\n도착 버스"
+        android:textColor="#ffffff"
+        android:textSize="46sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/specificbutton"
+        android:layout_width="303dp"
+        android:layout_height="162dp"
+        android:background="@drawable/bg_choosebtn1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:onClick="specificcall"
+        android:text="특정 버스\n선택"
+        android:textColor="#ffffff"
+        android:textSize="46sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="372dp" />
+</LinearLayout>
