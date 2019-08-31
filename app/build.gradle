@@ -14,7 +14,7 @@ android {
         applicationId "today.good.finalbusdata"
         minSdkVersion 15
         targetSdkVersion 28
-        versionCode 6
+        versionCode 7
         versionName "4.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
@@ -46,5 +46,3 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
-
-

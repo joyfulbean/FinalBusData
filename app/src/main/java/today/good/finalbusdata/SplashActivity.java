@@ -38,7 +38,7 @@ public class SplashActivity extends MainActivity {
 
 
 
-        startActivity(new Intent(this, FindBusStation.class));
+        startActivity(new Intent(this, SelectcityActivity.class));
 
         finish();
 

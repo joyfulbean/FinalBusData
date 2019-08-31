@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/darkBlack"
+    tools:context=".FindBusStationGGD">
+
+    <TextView
+        android:id="@+id/station_name_ggd"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="정류장 이름"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/yesbtn_ggd"
+            android:text="예"
+            android:textColor="#ffffff"
+            android:background="@drawable/bg_btn"
+            android:onClick="YesButtonClicked"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_width="292dp"
+            android:layout_height="78dp" />
+
+        <Button
+            android:id="@+id/nobtn_ggd"
+            android:layout_marginTop="30dp"
+            android:text="아니오"
+            android:background="@drawable/bg_btn"
+            android:onClick="NoButtonClicked"
+            android:textColor="#ffffff"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_width="292dp"
+            android:layout_height="78dp" />
+
+        <Button
+            android:id="@+id/reDobtn_ggd"
+            android:text="다시하기"
+            android:onClick="redo"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/bg_btn"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:layout_width="292dp"
+            android:layout_height="78dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -13,7 +13,7 @@
         android:layout_width="303dp"
         android:layout_height="162dp"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="130dp"
         android:layout_marginBottom="32dp"
         android:background="@drawable/bg_choosebtn1"
         android:onClick="mincall"

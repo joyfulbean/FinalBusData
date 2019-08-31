@@ -52,7 +52,7 @@ public class MainActivity extends Activity {
     double latitude = 0.0;
 
     int minute = 0;
-    // 5분 이내에 오는 버스만 읽고 출력하도록 check 라는 boolean 함수를 선언
+    // 10분 이내에 오는 버스만 읽고 출력하도록 check 라는 boolean 함수를 선언
     boolean check = true;
 
     XmlPullParser xpp;

@@ -84,7 +84,7 @@ public class FindBusStation extends AppCompatActivity {
 
     //공공데이터 API 사용을 위한 키값
 
-    String key = "QzQ64Y0ttlhXPP7CVvMZKf6NKxitNjOameIBPVADX4f9%2FxPRnLqZkDljqmpTROuyOCabJF8ncXbxDqHGEFAtPA%3D%3D";
+    String key = "e%2FQrc7xl69032umSPCCM%2Fhq3R1fAEIBE3mD3mJ0eh0i8yebcATke1K9uypKsOT4NeqBGZ4Rva18S%2F%2Fon6Mcu6A%3D%3D";
 
 
 
@@ -109,8 +109,6 @@ public class FindBusStation extends AppCompatActivity {
     ArrayList<String> stationName = new ArrayList<>();
 
     ArrayList<String> stationCode = new ArrayList<>();
-
-
 
 
 
@@ -747,6 +745,7 @@ public class FindBusStation extends AppCompatActivity {
                             stationCode.add(xpp.getText());
 
                             Log.d("버스정류장 이름", stationCode+"");
+                            Log.d("bus",queryUrl);
 
                         }
 

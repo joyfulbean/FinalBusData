@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_ggd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkBlack"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:hint="enter text to search"/>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="search"
+            android:textSize="12sp"/>
+    </LinearLayout>-->
+
+
+    <!--
+    <TextView
+        android:id="@+id/internet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="인터넷 연결 여부" />
+    <TextView
+        android:id="@+id/bus_station"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="버스정류장 정보 표시" />
+    <TextView
+        android:id="@+id/gps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:hint="gps정보 표시" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="10"></LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_ggd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:textSize="26sp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="14dp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkBlack"
+    android:orientation="vertical"
+    tools:context=".SelectcityActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="292dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:text="지역을 선택해주세요."
+        android:textColor="#77FFF0"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listview9"
+        android:dividerHeight="2dp"
+        android:divider="#FFCE00"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

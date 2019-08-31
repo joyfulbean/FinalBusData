@@ -29,7 +29,7 @@ public class ListViewActivity extends AppCompatActivity {
     // 파싱 변수
     XmlPullParser xpp;
 
-    // 10분 안에 오는 버스의 번호를 api에서 가져와서 배열에 담음
+    // 5분 안에 오는 버스의 번호를 api에서 가져와서 배열에 담음
     static ArrayList<String> busnum = new ArrayList<>();
 
     // 몇 분 뒤에 버스가 오는지 api에서 가져와서 순서대로 배열에 담음
@@ -263,7 +263,7 @@ public class ListViewActivity extends AppCompatActivity {
         }
         //buffer.append("파싱 끝\n");
 
-        //StringBuffer 문자열 객체 반환
+//StringBuffer 문자열 객체 반환
         return buffer.toString();
     }
 
