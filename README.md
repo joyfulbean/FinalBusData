@@ -2,6 +2,7 @@
 
 ## [!프로젝트 자세히 알아보기](https://joyfulbean.tistory.com/273?category=896186)
 
+## 시연영상: https://www.youtube.com/watch?v=MdYI56UsG7g&t=3s
 
 # The Light 팀 프로젝트 소개
 
