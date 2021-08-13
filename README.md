@@ -11,7 +11,8 @@
     
 ## 2. 프로젝트 개발 배경
 >포항 버스정류장 도착정보 음성안내가 소음 민원에 의해서 서비스를 진행하지 않아 청각정보가 매우 중요한 시각장애인 분들의 대중교통 이용에 도움을 주고자 개발을 하게 되었다.
->![어플사](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBMllT%2Fbtrb9QSn9sS%2FONwdiCQkVCy3QWUKi2jsqK%2Fimg.png)
+
+![어플사](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBMllT%2Fbtrb9QSn9sS%2FONwdiCQkVCy3QWUKi2jsqK%2Fimg.png)
 
 ## 3. 주요 사용 기능
 >안드로이드스튜디오 - 어플리케이션 개발을 위해서  사용<br>
